@@ -35,7 +35,7 @@ public class MainForm extends javax.swing.JFrame {
         lblSurnames = new javax.swing.JLabel();
         txtSurnames = new javax.swing.JTextField();
         radGenderMale = new javax.swing.JRadioButton();
-        jLabel1 = new javax.swing.JLabel();
+        lblGender = new javax.swing.JLabel();
         radGenderFemale = new javax.swing.JRadioButton();
         btnCheck = new javax.swing.JButton();
 
@@ -72,7 +72,7 @@ public class MainForm extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setText("Gender: ");
+        lblGender.setText("Gender: ");
 
         btnGroupGenders.add(radGenderFemale);
         radGenderFemale.setText("Female");
@@ -101,7 +101,7 @@ public class MainForm extends javax.swing.JFrame {
                                 .addComponent(lblSurnames)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(txtSurnames, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jLabel1)))
+                            .addComponent(lblGender)))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(55, 55, 55)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -122,7 +122,7 @@ public class MainForm extends javax.swing.JFrame {
                     .addComponent(lblSurnames)
                     .addComponent(txtSurnames, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
-                .addComponent(jLabel1)
+                .addComponent(lblGender)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(radGenderMale)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -210,10 +210,10 @@ public class MainForm extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnCheck;
     private javax.swing.ButtonGroup btnGroupGenders;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JTabbedPane jTabbedPane1;
+    private javax.swing.JLabel lblGender;
     private javax.swing.JLabel lblName;
     private javax.swing.JLabel lblSurnames;
     private javax.swing.JRadioButton radGenderFemale;
